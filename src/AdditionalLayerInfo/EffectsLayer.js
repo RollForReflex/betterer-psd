@@ -1,9 +1,7 @@
-var fs = require('fs');
-var AdditionalLayerInfo = require('../AdditionalLayerInfo');
-
-AdditionalLayerInfo.EffectsLayer = {};
-
-var effectsLayers = fs.readdirSync(__dirname + "/EffectsLayer");
-for(var i = 0; i < effectsLayers.length; i++) {
-  require('./EffectsLayer/' + effectsLayers[i]);
-}
+require('./EffectsLayer/bevl');
+require('./EffectsLayer/cmnS');
+require('./EffectsLayer/dsdw');
+require('./EffectsLayer/iglw');
+require('./EffectsLayer/isdw');
+require('./EffectsLayer/oglw');
+require('./EffectsLayer/sofi');

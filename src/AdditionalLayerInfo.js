@@ -52,13 +52,8 @@ AdditionalLayerInfo.prototype.parse = function(stream, header) {
   stream.seek(this.offset + this.length, 0);
 };
 
+AdditionalLayerInfo.EffectsLayer = {};
 
 module.exports = AdditionalLayerInfo;
 
-
-require('./AdditionalLayerInfo/EffectsLayer');
-
-var layers = fs.readdirSync(__dirname + "/AdditionalLayerInfo");
-for(var i = 0; i < layers.length; i++) {
-  require('./AdditionalLayerInfo/' + layers[i]);
-}
+require('./AdditionalLayerInfo/all');
