@@ -1,14 +1,11 @@
 {
-  "name": "psd",
+  "name": "better-psd",
   "version": "0.0.3",
-  "description": "PSD format parser",
+  "description": "PSD format parser, bundler (like webpack) friendly",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/movableink/psd.js.git"
+    "url": "git://github.com/marekhrabe/psd.js.git"
   },
   "keywords": [
     "psd",
