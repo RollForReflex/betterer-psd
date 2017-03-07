@@ -75,12 +75,16 @@ Color.prototype.fromRGB = function() {
   /** @type {number} */
   var idx;
 
+  // If we've got an alpha channel regardless of header byte size, set it so we can keep it for RGB
+  if(this.channel[3] !== undefined) {
+    this.alphaChannel = this.channel[3]
+  }
+
   if (skip === 1) {
     return;
   }
 
   if (this.channel.length === 4) {
-    a = this.alphaChannel = this.channel[3];
     for (i = idx = 0, il = r.length; i < il; ++idx, i += skip) {
       r[idx] = r[i];
       g[idx] = g[i];
