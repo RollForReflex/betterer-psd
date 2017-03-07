@@ -1,6 +1,6 @@
 {
   "name": "betterer-psd",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "PSD format parser, bundler (like webpack) friendly",
   "main": "index.js",
   "repository": {
