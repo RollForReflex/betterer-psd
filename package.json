@@ -1,17 +1,17 @@
 {
-  "name": "better-psd",
+  "name": "betterer-psd",
   "version": "0.0.3",
   "description": "PSD format parser, bundler (like webpack) friendly",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/marekhrabe/psd.js.git"
+    "url": "git://github.com/rollforreflex/betterer-psd.git"
   },
   "keywords": [
     "psd",
     "photoshop",
     "parser"
   ],
-  "author": "Michael Nutt, imaya, and others",
+  "author": "Will Fallows, Michael Nutt, imaya, and others",
   "license": "MIT License"
 }
